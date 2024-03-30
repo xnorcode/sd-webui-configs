@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--api --xformers --enable-insecure-extension-access --theme dark --ckpt sd_xl_base_1.0.safetensors"
+export COMMANDLINE_ARGS="--api --xformers --enable-insecure-extension-access --theme dark --ckpt /home/${whoami}/sd-webui/models/Stable-diffusion/sd_xl_base_1.0.safetensors"
 
 # python3 executable
 #python_cmd="python3"
