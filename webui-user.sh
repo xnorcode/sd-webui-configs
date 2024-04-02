@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--api --xformers --enable-insecure-extension-access --theme dark --ckpt /home/ubuntu/sd-webui/models/Stable-diffusion/juggernautXL_v9Rdphoto2Lightning.safetensors --no-half-vae"
+export COMMANDLINE_ARGS="--api --xformers --enable-insecure-extension-access --theme dark --ckpt /home/ubuntu/stable-diffusion/stable-diffusion-webui/models/Stable-diffusion/juggernautXL_v9Rdphoto2Lightning.safetensors --no-half-vae"
 
 # python3 executable
 #python_cmd="python3"
